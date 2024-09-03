@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app/features/home/ui/widgets/home_orange_container.dart';
 import 'package:shopping_app/features/home/ui/widgets/home_top_bar.dart';
+import 'package:shopping_app/features/home/ui/widgets/most_searched_products_sea_all.dart';
+
+import '../../../core/helper/spacing.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -13,6 +17,9 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               const HomeTopBar(),
+              const HomeOrangeContainer(),
+              verticalSpace(24),
+              const MostSearchedProductsSeaAll(),
             ],
           ),
         ),
