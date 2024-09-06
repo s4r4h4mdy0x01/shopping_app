@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app/features/home/ui/widgets/grid_view_builder_products.dart';
 import 'package:shopping_app/features/home/ui/widgets/home_orange_container.dart';
 import 'package:shopping_app/features/home/ui/widgets/home_top_bar.dart';
 import 'package:shopping_app/features/home/ui/widgets/most_searched_products_sea_all.dart';
@@ -20,6 +21,8 @@ class HomeScreen extends StatelessWidget {
               const HomeOrangeContainer(),
               verticalSpace(24),
               const MostSearchedProductsSeaAll(),
+              verticalSpace(16),
+              const Expanded(child: GridViewBuilderProducts()),
             ],
           ),
         ),
