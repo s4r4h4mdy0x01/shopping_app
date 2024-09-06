@@ -34,22 +34,25 @@ lib
 <div align="start">
   
 # Technologies
+
  • Dart and Flutter 
-  • Dio and Retrofit for RESTful API calls
+ 
+ • Dio and Retrofit for RESTful API calls
  
  • Clean Architecture for a solid structure.
  
  • Bloc (Cubit) for state management.
  
  • injectable for dependency injection.
-
+ 
  • FlutterScreenUtil for responsive design
-
+ 
  • Cached Network Images for handling online images.
+ 
  • shimmer  for handling data While loading data
+ 
  • pull_to_refresh to pagination 
-
-
+ 
 <div align="start">
 
 <div align="start">
@@ -57,7 +60,9 @@ lib
 #  Features 
 
  • Animation Splash Screen 
+ 
  • home screen
+ 
  • search screen
 
 
