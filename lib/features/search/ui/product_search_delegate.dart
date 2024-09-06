@@ -66,7 +66,7 @@ class ProductSearchDelegate extends SearchDelegate {
   Widget buildSuggestions(BuildContext context) {
     return Center(
       child: Lottie.asset(
-        "assets/animation/shoping.json",
+        "assets/animation/sad_animation.json",
         width: 300,
         height: 300,
       ),

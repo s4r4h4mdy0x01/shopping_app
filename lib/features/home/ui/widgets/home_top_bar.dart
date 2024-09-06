@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../../core/theming/color_manager.dart';
 import '../../../../core/theming/styles_manager.dart';
-import '../../../search/product_search_delegate.dart';
-import '../../logic/home_cubit.dart';
-import '../../logic/home_state.dart';
+import '../../../search/ui/widgets/search_icon_product.dart';
 
 class HomeTopBar extends StatelessWidget {
   const HomeTopBar({super.key});
@@ -33,28 +29,7 @@ class HomeTopBar extends StatelessWidget {
         const Spacer(
           flex: 2,
         ),
-        IconButton(
-          onPressed: () async {
-            final homeCubit = context.read<HomeCubit>();
-            final state = homeCubit.state;
-            if (state is ProductsSuccess) {
-              final products = state.productsList;
-              showSearch(
-                context: context,
-                delegate: ProductSearchDelegate(products),
-              );
-            } else {
-              // موجود خطأ أو حالة غير ناجحة
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Failed to fetch products')),
-              );
-            }
-          },
-          icon: const Icon(
-            Icons.search,
-            color: Colors.black,
-          ),
-        ),
+        const SearchIconProduct(),
       ],
     );
   }
