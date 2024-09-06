@@ -1,6 +1,34 @@
-# shopping_app
 
-A new Flutter project.
+<div align="start">
+  
+# Shopping App 
+It is an application that displays products about the product
+
+
+<div align="start">
+ # System design
+    ├── lib
+    │   ├── core
+    │   │   ├── constants
+    │   │   ├── di
+    │   │   ├── helper
+    │   │   ├── network
+    │   │   ├── router
+    │   │   ├── theming
+    │   ├── features
+    │   │   ├── home
+    │   │   │   ├── data
+    │   │   │   │   ├── models
+    │   │   │   │   ├── repo
+    │   │   │   ├── logic
+    │   │   │   │   ├── cubit
+    │   │   │   ├── ui
+    │   │   │   │   ├── widgets
+    |   |   |   |   | home_screen.dart 
+    │   │   ├── splash
+    │   │   ├── search
+    │   ├── main.dart
+    │   ├── app.dart
 
 ## Getting Started
 
