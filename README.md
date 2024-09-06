@@ -1,16 +1,71 @@
-# shopping_app
 
-A new Flutter project.
+<div align="start">
+  
+# Shopping App 
+It is an application that displays products about the product
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<div align="start">
+# System design
 
-A few resources to get you started if this is your first Flutter project:
+lib  
+├── core  
+│   ├── constants  
+│   ├── di  
+│   ├── helper  
+│   ├── network  
+│   ├── router  
+│   ├── theming  
+├── features  
+│   ├── home  
+│   │   ├── data  
+│   │   │   ├── models  
+│   │   │   ├── repo  
+│   │   ├── logic  
+│   │   │   ├── cubit  
+│   │   ├── ui  
+│   │   │   ├── widgets  
+│   │   ├── home_screen.dart  
+│   │   ├── splash.dart  
+├── search  
+├── main.dart  
+└── app.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div align="start">
+  
+# Technologies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ • Dart and Flutter 
+ 
+ • Dio and Retrofit for RESTful API calls
+ 
+ • Clean Architecture for a solid structure.
+ 
+ • Bloc (Cubit) for state management.
+ 
+ • injectable for dependency injection.
+ 
+ • FlutterScreenUtil for responsive design
+ 
+ • Cached Network Images for handling online images.
+ 
+ • shimmer  for handling data While loading data
+ 
+ • pull_to_refresh to pagination 
+ 
+<div align="start">
+
+<div align="start">
+  
+#  Features 
+
+ • Animation Splash Screen 
+ 
+ • home screen
+ 
+ • search screen
+
+
+
+
+<div align="start">
