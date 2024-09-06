@@ -31,16 +31,36 @@ lib
 ├── main.dart  
 └── app.dart
 
+<div align="start">
+  
+# Technologies
+ • Dart and Flutter 
+  • Dio and Retrofit for RESTful API calls
+ 
+ • Clean Architecture for a solid structure.
+ 
+ • Bloc (Cubit) for state management.
+ 
+ • injectable for dependency injection.
 
-## Getting Started
+ • FlutterScreenUtil for responsive design
 
-This project is a starting point for a Flutter application.
+ • Cached Network Images for handling online images.
+ • shimmer  for handling data While loading data
+ • pull_to_refresh to pagination 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div align="start">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="start">
+  
+#  Features 
+
+ • Animation Splash Screen 
+ • home screen
+ • search screen
+
+
+
+
+<div align="start">
