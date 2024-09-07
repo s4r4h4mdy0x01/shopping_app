@@ -2,7 +2,7 @@
 <div align="start">
   
 # Shopping App 
-It is an application that displays products about the product
+It is an application that displays details related to products and searches for them
 
 
 <div align="start">
@@ -52,6 +52,8 @@ lib
  • shimmer  for handling data While loading data
  
  • pull_to_refresh to pagination 
+  ط
+ • Animation
  
 <div align="start">
 
